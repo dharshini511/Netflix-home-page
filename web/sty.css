@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+
+}
+
+body{
+    background:#080808;
+    color:#8096ae;
+
+}
+#header{width:100%;
+height:100vh;
+background-image: url(bg.jpg);background-size: cover;background-image: center;
+}
+.container{padding:10px 10%;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li
+{display: inline-block;
+list-style: none;
+margin:10px 20px;
+
+}
+#hi{text-decoration: none;
+    color:antiquewhite;
+    }
+#hi:hover{
+    text-shadow: 2px 2px 3px #fff;
+}
+nav ul li a{color:#fff;
+text-decoration: none;
+font-size: 18px;
+;}
+nav ul li a::after{content:'';
+width:100%;
+height:3px;
+background:position:absolute;left:0;bottom:-6px;transition:0.5s;
+
+}
+.headertxt{margin-top: 20%;
+    font-size:30px;
+
+}
+.headertexthi{font-size: 60px;margin-top: 20%;
+}
+#sd{font-size: 40px;color:rgb(252, 165, 201);}
+#headertxthi h1 span{color:rgb(252, 165, 201);}
+.about{
+    padding:80px ;
+    background-image:url('lav.png');
+}
+.aboutcol1{display:flex;
+
+    margin left:100px;
+}
+#abt{margin-left:110px;}
+#intro{margin-left:70px;
+margin-top: 70px;
+font-size: 25px;
+}
+#dd{margin-left: 80px;}
+#ss
+{font-weight: 50px;}
+h3{margin-left: 200px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:100;}
+#aa{margin-left:500px;
+color:rgb(211, 89, 89);}
+#aa:hover{color:orangered;
+text-shadow:2px 2px 3px black;}
+#third{background-image:url('lav.png');
+    padding:80px;height:100%;
+
+}
+#xc{font-size: 25px; margin-top: 30px;margin-left: 40px;
+color:#616562;}
+
+
+
+.tabtitles{display:flexbox;
+margin-left:700;}
